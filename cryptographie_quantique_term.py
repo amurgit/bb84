@@ -13,18 +13,19 @@ from generateur import *
 from graphisme import *
 from reconciliation import *
 
-list_action=["Alice	génère une clef			","Alice	génère une suite de filtre.	","Alice	envoie les photons.		","Bob	mesure.				","Bob	lit.				","Bob	annonce la base choisie.	","Bob et alice comparent leur base.	","Alice et Bob analysent les données.	","	Clef secrète réconciliée.	","	Clef secrète amplifiée.		"]
+list_action=[ "Alice generates a key","Alice generates a filter.","Alice sends photons.", "Bob measure. ","Bob bed.","Bob announces the chosen base. ","Bob and alice are comparing their base. ", "Alice and Bob to analyze the data. "," Secret key reconciled. "," Secret key amplified. "]
 etape=0
 erreur=False
 nombre_photon=500
 bruit=0.5
 perte=2
 
-# donnée
-# une liste l d'entiers compris entre -1 et 4
+ 	
+# given
+# a list l of integers between -1 and 4
 
-# résultat
-# affiche une étape du protocole BB85
+# result
+# shows a step of the protocol, BB85
 
 def affiche_Etape(l,la,etape):
 	if etape==0:
@@ -70,13 +71,12 @@ def affiche_Etape(l,la,etape):
 		print()
 
 
+		
+# given
+# a list l of integers between 1 and 4
 
-	
-# donnée
-# une liste l d'entiers compris entre 1 et 4
-
-# résultat
-# affiche la représentation d'un photon
+# result
+# displays the representation of a photon
 
 def affiche_Liste_Photon(l):
 	ch=""
@@ -94,11 +94,11 @@ def affiche_Liste_Photon(l):
 			ch=ch+"\\"
 	return(ch)
 		
-# donnée
-# une liste l d'entiers compris entre 0 et 1
+# given
+# a list l of integers between 0 and 1
 
-# résultat
-# affiche la représentation d'un filtre
+# result
+# displays the representation of a filter
 
 def affiche_Liste_Filtre(l):
 	ch=""
@@ -109,11 +109,12 @@ def affiche_Liste_Filtre(l):
 			ch=ch+"X"
 	return(ch)
 		
-# donnée
-# une liste l d'entiers compris entre 0 et 1
+ 		
+# given
+# a list l of integers between 0 and 1
 
-# résultat
-# affiche la représentation d'une suite binaire
+# result
+# displays the representation of a sequence of binary
 		
 def affiche_Liste_Clef(l):
 	ch=""
@@ -124,7 +125,8 @@ def affiche_Liste_Clef(l):
 			ch=ch+"1"
 	return(ch)
 
-# procédure qui trace une ligne
+ 	
+# procedure that draws a line
 def ligne():
 	ligne=""                          
 	for i in range(0,60+nb):        
@@ -132,18 +134,19 @@ def ligne():
 	print(ligne) 		
 
 
-# donnée
+ 	
+# given
 
-# résultat
-# affiche la présence d'un pirate sur la ligne
+# result
+# displays the presence of a pirate on the line
 
 def affiche_Piratage():	
 	ligne()
 	print(" ")
-	print("Piratage détecté.")
+	print(" Piracy detected.")
 	print(" ")
 	print(" ")
-	print("Fin de la communication.")
+	print(" End of the communication.")
 	print(" ")
 
 	
@@ -153,10 +156,10 @@ def affiche_Piratage():
 #========================================================================================================================================================================
 
 print()
-print("Début du programme")
+print(" The beginning of the program")
 print()
-nombre_photon=int(input('Donner le nombre de photon transmis :'))
-pirate=int(input("Sans espion(0) ; avec espion(1): "))
+nombre_photon=int(input(' Give the number of photon transmitted :'))
+pirate=int(input("Without spy(0) ; spy(1):"))
 print()
 print()
 
