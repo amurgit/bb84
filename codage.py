@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 
-# donnée	
-# une liste p de n entiers constituée d'entiers compris entre 1 et 4
-
-# résultat
-# une liste qb de n entiers égaux à 0 si p égal à 2 ou 4 et égaux à 1 si p égal 1 ou 4.
+ 	
+# given
+# a list p of n integers consisting of integers between 1 and 4
+# result
+# a list qb of n integers equal to 0 if p equal to 2 or 4 and equal to 1 if p equals 1 or 4.
 
 def qu_Bit(p):
 	qb=[]
