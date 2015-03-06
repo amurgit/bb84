@@ -2,12 +2,11 @@
 from random import randrange
 import math
 
-# donnée	
-# une liste l de n entiers constituée d'entiers compris entre 0 et 1.
-
-# résultat
-# une liste p de n entiers constituée d'entiers compris entre 0 et 1.
-# dont le mélange est reproductible
+# given
+# a list l of n integers consisting of integers between 0 and 1.
+# result
+# a list p of n integers consisting of integers between 0 and 1.
+# where the mixture is reproducible
 
 def amplification_Clef(l):
 	p=[]
@@ -23,22 +22,23 @@ def amplification_Clef(l):
 
 	return p
 
-# donnée	
-# x un nombre entier
+ 		
+# given
+# x is a whole number
 
-# résultat
-# i un nombre entier image de f1
+# result
+# i a whole number in the image of f1
 
 def f1(x):
 	i=int(x*x*math.pi)%x
 	return i
 	
-# donnée	
-# x un nombre entier
+# given
+# x is a whole number
 
-# résultat
-# i un nombre entier image de f1
-	
+# result
+# i a whole number in the image of f1
+
 def f2(x):
 	i=int(x*x*x*math.pi)%x
 	return i
