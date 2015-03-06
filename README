@@ -1,9 +1,5 @@
-L’objet de ce projet est de simuler un transfert de clé cryptographique
-par l’intermédiaire de système quantique entre deux correspondants usuel-
-lement appelés Alice et Bob . On montrera alors comment la présence d’un
-espion, traditionnellement appelé Eve, peut être très facilement détecté. Une
-comparaison des différentes méthodes de réconciliation sera mise en oeuvre.
-
-le rapport du projet est consultable à cette adresse.
-
-https://www.dropbox.com/l/6kvm3W9ewee93bZ3P0ywa8
+The purpose of this project is to simulate a transfer of a cryptographic key
+through quantum system between two corresponding common-
+also called Alice and Bob . We will then show how the presence of a
+spy, traditionally called Eve, can be very easily detected. A
+comparison of different methods of reconciliation is to be implemented.
